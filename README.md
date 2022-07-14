@@ -32,7 +32,7 @@ Utilisation de SASS, aucune bibliothèque ne doit être utilisée, les animation
 @@ Exemple: Animation du loader @@
 ```
 <p align="center">
-<img src="https://github.com/PalaciosCaroline/projet3/blob/main/images/image_loader.png?raw=true" width="65%" height="65%" />
+
 </p>
 
 

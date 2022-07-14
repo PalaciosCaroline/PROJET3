@@ -9,10 +9,10 @@ Pour voir le résultat du site web mis en ligne, rendez-vous sur [ohmyfood](http
 
 <h2 align="center">Objet du projet :</h2>
 
-Le projet a pour but la création du site Ohmyfood! Paris sous la supervision de Paul, CTO, d’après les maquettes mobiles aux couleurs de Paris réalisée par Fanny, UX Designer.
+<p class="p-3 mb-2 bg-primary text-white">Le projet a pour but la création du site Ohmyfood! Paris sous la supervision de Paul, CTO, d’après les maquettes mobiles aux couleurs de Paris réalisée par Fanny, UX Designer.
 La start-up Ohmyfood! souhaite implanter sur Paris son concept déjà présent à New York.
 Ohmyfood! est une entreprise de réservation et de commande de repas en ligne. 
-Son outil en mobile first permet aux classes moyennes et supérieures souhaitant déguster des produits de qualité de composer leur propre menu gastronomique et ainsi de réduire leur temps d’attente dans les restaurants.
+Son outil en mobile first permet aux classes moyennes et supérieures souhaitant déguster des produits de qualité de composer leur propre menu gastronomique et ainsi de réduire leur temps d’attente dans les restaurants.</p>
 
 
 <h2 align="center">Réalisations attendues :</h2>	

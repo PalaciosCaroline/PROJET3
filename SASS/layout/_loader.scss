@@ -8,7 +8,7 @@
   background-color: #333;
   opacity: 0.99;
   overflow: hidden;
-  animation: loaderAnimation 1.5s forwards;
+  //animation: loaderAnimation 1.5s forwards;
   animation-delay: 2s;    
   background-size: 400% 400%;  
   .loader_logo {
@@ -122,11 +122,14 @@
     bottom: 14.5%;
     right: -25%;
     width: 150%;
-    height: 4.5%;
+    height: 10px;
     z-index: 21;
     background-color:$color-tertiary;
-    border-radius: 0.2em 0.2em 0.2em 0.2em;
-    transform-origin: -15% 0;   
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    transform-origin: -15% 0; 
+    @include devices (big-pc){
+      height:16px;
+    }   
   }
   #cooking #area #table2 {
     position: absolute;
@@ -136,13 +139,14 @@
     width: 130%;
     height: 22px;
     background-color: #333;
-    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    border-radius: 0 0 0.3em 0.3em;
     transform-origin: -15% 0;
     @include devices (pc){
-      bottom: 7.2%;
+      bottom: 7%;
     } 
     @include devices (big-pc){
-      bottom: 7.2%;
+      height: 28px;
+      bottom: 7%;
     } 
   }
   //loader de la table

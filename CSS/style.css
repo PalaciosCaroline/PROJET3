@@ -159,13 +159,16 @@ ul {
   font-family: "Shrikhand";
   margin: 0 auto;
   top: 16vh;
-  width: 70vw;
   text-align: center;
   font-size: 5vh;
-  font-weight: 200;
   z-index: 99;
   color: white;
   opacity: 1;
+}
+@media only screen and (max-width: 500px) {
+  .loader_page .loader_logo {
+    font-size: 4vh;
+  }
 }
 @keyframes loaderAnimation {
   0% {

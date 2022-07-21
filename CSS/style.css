@@ -1381,10 +1381,6 @@ ul {
   position: relative;
   padding-bottom: 40px;
 }
-.features a {
-  color: #000;
-  height: 100%;
-}
 .features .card {
   height: 65px;
   margin: 5px 5px 25px 7px;

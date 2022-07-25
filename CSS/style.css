@@ -1358,7 +1358,7 @@ ul {
   margin-top: 30px;
   padding: 14px 25px;
 }
-.main_header .explore:hover, .main_header .explore:active {
+.main_header .explore:hover, .main_header .explore:focus, .main_header .explore:active {
   transform: translateY(-1px);
   opacity: 0.95;
   box-shadow: 0 0 50px -20px rgba(255, 255, 255, 0.8) inset, 2px 2px 7px 1px rgba(0, 0, 0, 0.7);
@@ -1465,7 +1465,7 @@ ul {
   box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-in-out;
 }
-.restaurant_card:hover {
+.restaurant_card:hover, .restaurant_card:active, .restaurant_card:focus {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
   transform: translateY(-5px);
   transition: all 0.2s ease-in-out;
@@ -1569,11 +1569,11 @@ ul {
 .restaurant_card_box_text .btn--heart .full .alt-stop {
   stop-color: #FF79DA;
 }
-.restaurant_card_box_text .btn--heart:hover .full, .restaurant_card_box_text .btn--heart:active .full {
+.restaurant_card_box_text .btn--heart:hover .full, .restaurant_card_box_text .btn--heart:focus .restaurant_card_box_text .btn--heart:active .full {
   animation: heartFilling 0.2s forwards;
   transform-origin: 12px 12px;
 }
-.restaurant_card_box_text .btn--heart:hover .empty, .restaurant_card_box_text .btn--heart:active .empty {
+.restaurant_card_box_text .btn--heart:hover .empty, .restaurant_card_box_text .btn--heart:focus .restaurant_card_box_text .btn--heart:active .empty {
   animation: disappearanceCoeur 0.3s 0.05s forwards;
 }
 @keyframes heartFilling {
@@ -1713,11 +1713,11 @@ ul {
 .menu .menu_header_title .btn--heart .full .alt-stop {
   stop-color: #FF79DA;
 }
-.menu .menu_header_title .btn--heart:hover .full, .menu .menu_header_title .btn--heart:active .full {
+.menu .menu_header_title .btn--heart:hover .full, .menu .menu_header_title .btn--heart:focus .menu .menu_header_title .btn--heart:active .full {
   animation: heartFilling 0.2s forwards;
   transform-origin: 12px 12px;
 }
-.menu .menu_header_title .btn--heart:hover .empty, .menu .menu_header_title .btn--heart:active .empty {
+.menu .menu_header_title .btn--heart:hover .empty, .menu .menu_header_title .btn--heart:focus .menu .menu_header_title .btn--heart:active .empty {
   animation: disappearanceCoeur 0.3s 0.05s forwards;
 }
 @keyframes heartFilling {
@@ -1926,40 +1926,47 @@ ul {
 }
 
 .menu_list_item:hover .item_text,
+.menu_list_item:focus .item_text,
 .menu_list_item:active .item_text {
   width: calc(95% - 120px);
 }
 @media only screen and (min-width: 950px) {
   .menu_list_item:hover .item_text,
+.menu_list_item:focus .item_text,
 .menu_list_item:active .item_text {
     width: calc(90% - 135px);
   }
 }
 @media only screen and (min-width: 1300px) {
   .menu_list_item:hover .item_text,
+.menu_list_item:focus .item_text,
 .menu_list_item:active .item_text {
     width: calc(90% - 120px);
   }
 }
 
 .menu_list_item:hover .price_check,
+.menu_list_item:focus .price_check,
 .menu_list_item:active .price_check {
   animation: slidingShutter 0.3s ease-in-out both;
 }
 @media only screen and (min-width: 950px) {
   .menu_list_item:hover .price_check,
+.menu_list_item:focus .price_check,
 .menu_list_item:active .price_check {
     animation: slidingShutterSmallPc 0.3s ease-in-out both;
   }
 }
 @media only screen and (min-width: 1300px) {
   .menu_list_item:hover .price_check,
+.menu_list_item:focus .price_check,
 .menu_list_item:active .price_check {
     animation: slidingShutter 0.3s ease-in-out both;
   }
 }
 
 .menu_list_item:hover i,
+.menu_list_item:focus i,
 .menu_list_item:active i {
   animation: iconRotate 0.3s 0.15s linear both;
 }
@@ -2012,7 +2019,7 @@ ul {
   margin-top: 30px;
   padding: 16px 50px;
 }
-.order:hover, .order:active {
+.order:hover, .order:focus, .order:active {
   transform: translateY(-1px);
   opacity: 0.95;
   box-shadow: 0 0 50px -20px rgba(255, 255, 255, 0.8) inset, 2px 2px 7px 1px rgba(0, 0, 0, 0.7);

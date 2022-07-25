@@ -10,6 +10,7 @@
     margin: auto;
     margin-top: 30px; 
     &:hover,
+    &:focus,
     &:active {
         transform: translateY(-1px);
         opacity:0.95;
@@ -55,7 +56,8 @@
             stop-color:$color-secondary;
         }                   
     }
-    &:hover,           
+    &:hover, 
+    &:focus          
     &:active {         
         .full {            
             animation: heartFilling 0.2s forwards;

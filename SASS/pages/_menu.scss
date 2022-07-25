@@ -177,7 +177,8 @@
     }
 }
 .menu_list_item:hover .item_text,
-.menu_list_item:active .item_text{
+.menu_list_item:focus .item_text,
+.menu_list_item:active .item_text {
     width: calc(95% - 120px);
     @include devices(small-pc){
         width: calc(90% - 135px);
@@ -187,6 +188,7 @@
     }
 }
 .menu_list_item:hover .price_check,
+.menu_list_item:focus .price_check,
 .menu_list_item:active .price_check {
     animation: slidingShutter 0.3s ease-in-out both;
     @include devices(small-pc){
@@ -197,7 +199,8 @@
    }
 }
 .menu_list_item:hover i,
-.menu_list_item:active i{
+.menu_list_item:focus i,
+.menu_list_item:active i {
     animation: iconRotate 0.3s  0.15s linear both;
 }
 @keyframes slidePage {

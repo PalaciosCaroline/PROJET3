@@ -126,7 +126,9 @@ padding-bottom: 20px;
         position: relative;
         box-shadow: $box-shadow-card;
         transition: all 0.2s ease-in-out;   
-        &:hover{
+        &:hover,
+        &:active,
+        &:focus{
             @include cardHover;
         }
         @include devices(small-pc) {

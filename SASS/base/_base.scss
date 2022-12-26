@@ -27,3 +27,9 @@ ul {
     left:-9999px;
   }
 /**/
+
+button:active,
+button:focus:not(.focus-visible){
+  outline: none !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}

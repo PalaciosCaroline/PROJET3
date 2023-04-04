@@ -35,6 +35,10 @@ Utilisation de SASS, aucune bibliothèque ne doit être utilisée, les animation
 <img src="https://github.com/PalaciosCaroline/PalaciosCaroline.github.io/blob/main/images/image_loader.png?raw=true" width="65%" height="65%"/>
 </p>
 
+<p align="center">
+<img src="/main/images/image_loader.png?raw=true" width="65%" height="65%"/>
+</p>
+
 ![loader](./images/image_loader.png "Loader")
 
 
